@@ -11,6 +11,11 @@ html,body {
 	right:0;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
 #aboutme a {
 	text-decoration: none;
 	color: inherit;
