@@ -1,0 +1,180 @@
+html,body {
+	font: 1rem Tahoma, serif;
+	background-color: #424242;
+	text-align: center;
+	color: white;
+	height: 100%;
+	width: 100%;
+	padding:0;
+	margin: 0;
+	left:0;
+	right:0;
+}
+
+#aboutme a {
+	text-decoration: none;
+	color: inherit;
+	opacity: 1;
+}
+
+#home {
+	background:url('Images/france_cover.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+
+#aboutme {
+	background-color: #424242;
+	background-size: 100% 100%;
+}
+
+#description {
+	font-size: 0.88em;
+	display: inline-block;
+}
+
+#profile {
+	background: url('Images/professionalwu.jpg') no-repeat;
+	background-size: cover;
+	height: 18em;
+	width: 18em;
+	border-radius: 8%;
+	display: inline-block;
+}
+
+.fullpage {
+	display: flex;
+	/*background-color: #88cab3;*/
+
+	min-width: 100%;
+	min-height:100%;
+	/* Align content vertically */
+	align-items: center;
+	/* Align content horizontally */
+	justify-content: center;
+	/* Flexible column divider */
+	flex-direction: column;
+
+}
+
+/* Navigator bar selector */
+#nav {
+	/* Bar properties */
+	background-color: #383838;
+	
+	/* Position properties */
+	position: fixed;
+	height: 8%;
+	width: 100%;
+	text-align: justify;
+}
+
+#nav ul:after {
+	content: '';
+	width: 100%;
+	display: inline-block;
+}
+
+/* Navigator bar's list elements selector */
+#nav li {
+	/* Font properties */
+	opacity: 1;
+	font-size: 1.2em;
+	font-family: Tahoma, serif;
+	color: white;
+	
+	/* Transition properties */
+	transition: opacity 0.4s ease-in-out;
+	
+	/* Positioning properties */
+	display: inline-block;
+	margin-right: 5%;
+	cursor: pointer;
+}
+
+#nav a {
+	text-decoration: none;
+	color: inherit;
+	opacity: 1;
+}
+.social li {
+	opacity: 1;
+	font-size: 1.8em;
+	display: inline-block;
+	margin: 0.5%;
+	/* Transition properties */
+	transition: opacity 0.4s ease-in-out;
+}
+
+.social li:hover {
+	opacity: 0.3;
+}
+
+/* Icon selector */
+i {
+	margin-left: 0.3em;
+}
+
+#nav li:hover {
+	opacity:0.3;
+}
+	
+table {
+	width: 80%;
+	max-height: 100%;
+	border-spacing: 4em;
+}	
+
+
+#portfolio {
+	background-color: #242424;
+	background-size: 100% 100%;
+}
+
+#contactme {
+	background-color: #686868;
+	background-size: 100% 100%;
+}
+
+#footer {
+	/* Bar properties */
+	background-color: #424242;
+	
+	/* Position properties */
+	height: 6%;
+	width: 100%;
+	display: table;
+}
+
+#footer p {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+input,textarea {
+	display: block;
+	margin-top: 5%;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	font-size:1.2em;
+	color:#3a3a3a;
+	width: 30em;
+    border-radius:1.3em;
+}
+
+textarea {
+	height: 8em;
+}
+
+input:focus, textarea:focus {
+	/* Give the boxes a subtle blue when selected */
+    border:1px solid #97d6eb;
+}
+
+#submit {
+    cursor:pointer;
+}
+
+#submit:hover {
+	opacity: 0.8;
+}

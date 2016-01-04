@@ -1,0 +1,77 @@
+<!-- Made By Alexander Wu -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=MedievalSharp" />	
+		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		<title> Alexander Wu </title>
+	</head>
+	<body>
+		<!-- Navigation Bar -->
+		<div id="nav">
+			<ul>
+				<li> <i class="fa fa-bars"> </i> </li>
+				<li> <a class="scroll" href="#home"> Home <i class="fa fa-home"> </i> </a> </li>
+				<li> <a class="scroll" href="#aboutme"> About Me <i class="fa fa-user-secret"></i> </a> </li>
+				<li> <a class="scroll" href="#portfolio"> Portfolio<i class="fa fa-folder-open"></i> </a> </li>
+				<li> <a class="scroll" href="#contactme"> Contact Me <i class="fa fa-envelope"></i> </a> </li>
+			</ul>
+		</div>
+		
+		<!-- Home Page -->
+		<div class="fullpage" id="home">
+		</div>
+		
+		<!-- About Me -->
+		<div class="fullpage" id="aboutme">
+			<table>
+				<tr colspan="2">
+					<td> <div id="profile"> </div> </td>
+					<td> 
+						<div id="description"> 
+							<h2> About Me <i class="fa fa-user-secret"></i> </h2> 
+							<p> Hi, my name is <strong> Alexander Wu </strong>  and I am a software engineering student currently studying at McGill University. </p>
+							<p> Born and raised in Montreal, I've developed over the years a passion for sports, more specifically, Tennis and Basketball, and programming. Playing these two sports competitively has shaped in me a mental makeup capable of succeeding in a competitive environment. The ability to rebound from defeat, to be optimistic in spite of failure, to keep working hard even if the results are not evident and to never give up, transcend not only sports and school, but also life. </p>
+							<p> Ever since I decided to major in Software Engineering, I have found amusement in solving problems through programming. Also, as an engineering student, I have learned to appreciate the small details that ordinary users of technology neglect. Astounded by such complex yet intuitive code written software, it is now my job to learn to understand it and to hopefully, innovate it and help change for the better the binary world we live in today. </p>
+							<div class="social">
+								<ul>
+									<li> <a href="https://github.com/hgalexwu" target="_blank"> <i class="fa fa-github-square"></i> </a> </li>
+									<li> <a href="https://ca.linkedin.com/in/hgalexanderwu" target="_blank"> <i class="fa fa-linkedin-square"></i> </a> </li>
+									<li> <a href="https://www.facebook.com/themoodiealex" target="_blank"> <i class="fa fa-facebook-square"></i> </a> </li>
+								</ul>
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<!-- PortFolio -->
+		<div class="fullpage" id="portfolio">
+			<h1> Portfolio <i class="fa fa-folder-open"> </i> </h1>
+		</div>
+		
+		<!-- Contact Me -->
+		<div class="fullpage" id="contactme">
+			<h1> Contact Me <i class="fa fa-envelope"> </i> </h1>
+			<form action="contact.php" method="post">
+				<input name="name" placeholder="Full Name">
+				<input name="email" type="email" placeholder="Email Address">
+				<textarea name="message" placeholder="Your Message"></textarea>
+				<input id="submit" name="submit" type="submit" value="Submit">			
+			</form>
+		</div>
+		
+		<!-- Footer -->
+		<div id="footer">
+			<p> Alexander Wu 2015 &#169;. All rights reserved. </p>
+		</div>
+		
+	</body>
+</html>
